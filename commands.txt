@@ -19,3 +19,9 @@ create a new app :
     django-admin startproject 'appName'
 
 --------------------------------------------
+
+
+create a new app :
+    python manage.py stratapp events
+
+--------------------------------------------

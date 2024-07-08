@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'company',
     'events',
-    'peopleInfo',
+    'peopleinfo',
     'corsheaders',
 ]
 
@@ -97,7 +97,7 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
+        'NAME': 'ByteGenie',
         'HOST':'127.0.0.1',
         'USER':'root',
         'PASSWORD':'1234567890',

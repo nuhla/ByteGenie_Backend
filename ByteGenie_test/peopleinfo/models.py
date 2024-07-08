@@ -10,6 +10,6 @@ class people_info(models.Model):
     person_country = models.CharField(max_length=50)
     email_pattern = models.CharField(max_length=100)
     homepage_base_url = models.CharField(max_length=150)
-    duration_in_current_job = models.CharField(300)
-    duration_in_current_company =models.CharField(300)
+    duration_in_current_job = models.CharField(max_length=300)
+    duration_in_current_company =models.CharField(max_length=300)
    
