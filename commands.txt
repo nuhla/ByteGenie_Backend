@@ -1,0 +1,21 @@
+--------------------------------------------
+
+update requirements :
+    pip freeze > requirements.txt
+
+--------------------------------------------
+
+install requirments from text 
+    pip install -r requirements.txt
+
+--------------------------------------------
+
+run Server :
+     python manage.py runserver 
+
+--------------------------------------------
+
+create a new app :
+    django-admin startproject 'appName'
+
+--------------------------------------------
